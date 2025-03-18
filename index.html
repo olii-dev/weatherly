@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weatherly</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Weatherly 🌤️</h1>
         <div id="weatherDisplay">Loading Weather...</div>
-        <button id="toggleSearch">Check Another Location</button>
-        <div id="searchContainer" style="display: none;">
-            <input type="text" id="cityInput" placeholder="Enter city">
-            <button onclick="getWeather()">Search</button>
+        <button id="toggleSearch">Search for Another City</button>
+        <div id="searchContainer">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchButton">Get Weather</button>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
     <script src="script.js"></script>
 </body>
